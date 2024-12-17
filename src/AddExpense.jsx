@@ -7,11 +7,11 @@ const AddExpense = ({itemsplitselect,items,setItems,setItemsplitselect}) => {
     const [paidbill,setPaidbill]=useState("you")
     const handelExpensesplit=()=>{
         
-        if(totalbill==undefined && yourexpense ==undefined){
+        if(totalbill<=0 && yourexpense <=0){
             alert("Enter Your Total Bill and Your Expense")
-        }else if(totalbill==undefined){
+        }else if(totalbill<=0){
             alert("Enter Your Total Bill")
-        }else if(yourexpense==undefined){
+        }else if(yourexpense<=0){
             alert("Enter Your Expense")
         }else{
             let balance=paidbill=="you"? itemsplitselect.balance+(totalbill-yourexpense)
