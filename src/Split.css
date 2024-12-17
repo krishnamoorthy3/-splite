@@ -1,0 +1,14 @@
+p{
+    margin: 0;
+}
+.Splitcontainer-wrapper{
+    width: 500px;
+    padding: 30px 40px;
+}
+
+@media screen and (max-width:767px) {
+    .Splitcontainer-wrapper{
+        width: 95%;
+        padding: 15px;
+    }
+}

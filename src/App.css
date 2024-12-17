@@ -1,0 +1,23 @@
+.split-user-btn{
+    border-radius: 11px;
+    border: none;
+    padding: 3px 15px;
+    background: rgb(50, 37, 128);
+    color: #fff;
+    margin-right: auto;
+}
+
+.bg-mask{
+    background: #0000002e;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-radius-pop{
+    border-radius: 20px;
+}

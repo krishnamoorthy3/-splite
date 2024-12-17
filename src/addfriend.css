@@ -1,0 +1,19 @@
+.bg-color-f{
+    background: #fff;
+}
+.btn-split{
+    background: #0e1a33;
+    padding:2px 15px;
+    border-top: none;
+    color: #fff;
+    border-radius: 10px;
+}
+.exp-wrapper{
+    width: 500px;
+    padding: 20px;
+}
+@media only screen and (max-width:767px) {
+    .exp-wrapper{
+        width: 95%;
+    }
+}
